@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+body{
+    font-family: "Lato", sans-serif;
+    color: #777;
+}
+/* HEADER */
+.main_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: white;
+}
+.main_header_items ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 3rem;
+
+}
+.nav_lists{
+    color: inherit;
+    font-weight: bold;
+}
+
+/* SECTION-1 */
+.section_1 {
+    position: relative;
+    padding: 16rem 0; 
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.26), rgba(40, 180, 133, 0.212));
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .20;
+    overflow: hidden; 
+}
+.bg-video_content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.home_header{
+    font-size: 3rem;
+    text-transform: uppercase;
+    display: inline-block;
+    background-image: linear-gradient(to right, #7ed56f, #28b485);
+    -webkit-background-clip: text;
+    color: transparent;
+    line-height: 2rem;
+    transition: all .2s;
+
+}
+.home_header:hover{
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+}
+.home_paragraph{
+    margin: 3rem 24rem;
+    font-size: 2rem;
+}
+/* SECTION 2 */
+.section_2{
+    padding: 10rem 0;
+    margin: 0 3rem;
+    background-image: linear-gradient(to right bottom, #7ed56f, #28b485)}
+
+.about_div p {
+    display: inline-block;
+    width: 45%;
+    font-size: 2rem;
+    vertical-align: top;
+    margin-left: 4rem;
+
+
+}
+.section_2 h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.about_image{
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+    width: 50%;
+    display: inline-block;
+
+}
+
+
+
+
+/* SECTION 3 */
+
+
